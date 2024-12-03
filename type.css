@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "khmer os battambang";
+}
+body{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #ffffff;
+    width: 90%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: -1px 0px 5px grey;
+}
+.form{
+    border-top: 1px solid #0a36ad ;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    justify-content: center;
+    text-align: center;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form a{
+    width: 200px;
+    color: #fff;
+    background-color:#0a36ad;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.form a:hover{
+    background-color:#4c78f1;
+}
+.image{
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
+@media screen and (max-width: 700px){
+    .select{
+        flex-direction: column;
+    }
+    .form a{
+        width: 90%;
+    }
+}
