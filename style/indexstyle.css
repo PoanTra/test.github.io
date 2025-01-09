@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "khmer os battambang";
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.background{
+    width: 100%;
+    height: auto;
+    background-color: #f8f9f9;
+}
+form{
+    margin: 10px;
+    padding: 5%;
+    padding-top: 0px;
+    border: 1px solid #124997de;
+    text-align: center;
+    border-radius: 18px;
+}
+form .header img{
+    width: 300px;
+}
+.input,.selcet-un{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.selcet-un{
+    width: 100%;
+}
+.input-1,.input-2{
+    position: relative;
+    width: 100%;
+}
+.input-1 input,.input-2 input,.input-1 select,.input-2 select{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #f8f9f9;
+    border: 2px solid #124997de;
+    border-radius: 6px;
+    outline: none;
+    color: #124997de;
+    font-size: 15px;
+}
+.input-1 label,.input-2 label{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 15px;
+    color: #124997de;
+    transition: 0.2s;
+} 
+
+.input-1 input:valid ~ label,.input-2 input:valid ~ label,.input-1 select:valid ~ label,.input-2 select:valid ~ label,
+.input-1 input:focus ~ label,.input-2 input:focus ~ label,.input-1 select:focus ~ label,.input-2 select:focus ~ label{
+    color: #dcc728;
+    transform: translateX(10px) translateY(-11px);
+    font-size: 0.70em;
+    padding:0 15px;
+    background-color: #f8f9f9;
+    border-right: 1px solid #124997de;
+    border-left: 1px solid #124997de;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
+.btn input{
+    background-color: #124997de;
+    border: 0;
+    border-radius:6px ;
+    margin-top: 30px;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+}
+.btn input:hover{
+    background-color: #dcc728;
+}
+
+.link{
+    margin: 10px;
+    padding: 5%;
+    padding-top: 30px;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    background-color:#124997de;
+    width: 100px;
+    padding: 5px 10px;
+}
+.link a:hover{
+    background-color: #dcc728;
+}
+.link label{
+    color: #124997de;
+    font-size:20px ;
+}
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/indexstyle.css">
+    <link rel="icon" href="icon/logo2.png">
+    <title>Register</title>
+</head>
+<body>
+    <div class="background">
+        <form id="Form">
+            <div class="header">
+                <img src="icon/logo3.png" alt="CLE">
+            </div>
+            <div class="input" id="input">
+                <div class="input-1">
+                    <input type="text" id="NameKh" required="required">
+                    <label>ឈ្មោះជាអក្សរខ្មែរ</label>
+                </div>
+                <div class="input-1">
+                    <input type="text" id="NameEng" required="required">
+                    <label>ឈ្មោះជាអក្សរឡាតាំង</label>
+                </div>
+                <div class="input-1">
+                    <select id="Gender" required="required">
+                        <option value=""></option>
+                        <option value="ប្រុស">ប្រុស</option>
+                        <option value="ស្រី">ស្រី</option>
+                    </select>
+                    <label>ភេទ</label>
+                </div>
+                <div class="selcet-un">
+                    <div class="input-2">
+                        <select id="University" required="required">
+                            <option value=""></option>
+                            <option>ផ្សេងៗ :</option>
+                            <option>សកលវិទ្យាល័យ ពុទ្ធិសាស្រ្ត (UP)</option>
+                            <option>សកលវិទ្យាល័យ អន្តរជាតិ (IU)</option>
+                            <option>សកលវិទ្យាល័យវិទ្យាសាស្ត្រសុខាភិបាល(UHS)</option>
+                            <option>វិទ្យាស្ថានវិទ្យាសាស្ត្រសុខាភិបាល ខ.ភ.ម (ISS)</option>
+                            <option>សកលវិទ្យាល័យន័រតុន (NU)</option>
+                            <option>សកលវិទ្យាល័យចេនឡា (CU)</option>
+                            <option>វិទ្យាស្ថានបច្ជេកវិទ្យាកម្ពុជា​ (ITC)</option>
+                            <option>សកលវិទ្យាល័យភូមិន្ទនីតិសាស្ត្រនិងវិទ្យាសាស្ត្រសេដ្ធកិច្ច (RULE)</option>
+                            <option>សកលវិទ្យាល័យ ភូមិន្ទភ្នំពេញ (RUPP)</option>
+                            <option>សកលវិទ្យាល័យភូមិន្ទកសិកម្ម (RUA)</option>
+                            <option>សកលវិទ្យាល័យ ភ្នំពេញ (UC)</option>
+                        </select>
+                        <label>គ្រឹះស្ថានផ្សេងដែលកំពុងសិក្សា</label>
+                    </div>
+                    <div class="input-2">
+                        <input type="text" id="Major" required="required">
+                        <label>ជំនាញ</label>
+                    </div>
+                    <div class="input-2">
+                        <input type="text" id="Year" required="required">
+                        <label>ឆ្នាំទី</label>
+                    </div>
+                    <div class="input-2">
+                        <input type="text" id="Phone" required="required">
+                        <label>លេខទូរស័ព្ទ</label>
+                    </div>
+                </div>
+            </div>
+            <div class="btn" id="btn">
+                <input type="submit" value="Submit" onclick="showlink()">
+            </div>
+            <div class="link" id="link">
+                <label> <u>សូមចុះទីនេះដើម្បីចូលទៅកាន់គ្រុមតេឡេក្រាម</u></label><br>
+                <a href="">Click Me</a>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="javascriph/indexscriph.js"></script>
+</html>
